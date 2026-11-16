@@ -1,0 +1,41 @@
+{
+  "name": "watch",
+  "version": "1.0.0",
+  "description": "Watch a video where what is shown matters (slides, screens, code, a demo), learn what it teaches from both the words and the pictures, keep notes in a library that lasts, and turn it into a skill. Free, local, no API keys.",
+  "author": {
+    "name": "psabbagh",
+    "url": "https://github.com/psabbagh"
+  },
+  "homepage": "https://github.com/psabbagh/watch-skill",
+  "repository": "https://github.com/psabbagh/watch-skill",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "youtube",
+    "tutorial",
+    "slides",
+    "frames",
+    "learning",
+    "notes",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Watch",
+    "shortDescription": "Learn a video from its words and pictures",
+    "longDescription": "Give it a YouTube link, a video link or a video file. It gets the words (captions first, otherwise transcribed on your computer) and takes pictures where the scene changes, learns from both, keeps notes in your own words in ~/learning-library, and writes a new skill from them that you read and approve before it is saved. Free, no API keys.",
+    "developerName": "psabbagh",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/psabbagh/watch-skill",
+    "defaultPrompt": [
+      "Watch this: <link>. Learn what it teaches and turn it into a skill I can use forever, for <what you want it for>.",
+      "Watch this coding tutorial and turn it into a skill for building my own dashboards.",
+      "What does my library say about charts?"
+    ]
+  }
+}

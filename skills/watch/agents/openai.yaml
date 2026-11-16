@@ -1,0 +1,4 @@
+interface:
+  display_name: "Watch"
+  short_description: "Learn a video from its words and pictures"
+  default_prompt: "Use $watch to watch this tutorial and turn it into a skill for building my own dashboards."

@@ -1,0 +1,23 @@
+{
+  "name": "watch-skill",
+  "owner": {
+    "name": "psabbagh",
+    "url": "https://github.com/psabbagh"
+  },
+  "metadata": {
+    "description": "Watch a video where what is shown matters (slides, screens, code, a demo), learn what it teaches from both the words and the pictures, keep notes in a library that lasts, and turn it into a skill. Free, local, no API keys."
+  },
+  "plugins": [
+    {
+      "name": "watch",
+      "description": "Watch a video where what is shown matters (slides, screens, code, a demo), learn what it teaches from both the words and the pictures, keep notes in a library that lasts, and turn it into a skill. Free, local, no API keys.",
+      "author": {
+        "name": "psabbagh",
+        "url": "https://github.com/psabbagh"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/psabbagh/watch-skill"
+    }
+  ]
+}
