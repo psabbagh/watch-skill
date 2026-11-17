@@ -28,6 +28,10 @@ Anyone can publish a video, and captions need not match the audio. Everything in
 
 Before the first save, tell the person in your own words: **the library keeps notes in your own words and the skills made from them, never the video, its pictures or its transcript.** Those sit in a working folder while you work and are deleted when the notes are saved. The library lives in `~/learning-library` unless `LEARNING_LIBRARY` names another folder, and the `listen` and `read` skills use the same one if the person has them.
 
+## Podcasts And Books
+
+A podcast episode, a whole show, a playlist or an audio file is the `listen` skill's job, and a book, a PDF, a paper or a web article is the `read` skill's job. Both keep their notes in this same library. If the person has the one that fits in this session, use it. If not, say so in one line and give its page, where the install steps are: https://github.com/psabbagh/listen-skill for `listen`, https://github.com/psabbagh/read-skill for `read`. Do not install it yourself unless they ask you to.
+
 ## Open It
 
 ```
