@@ -6,6 +6,9 @@ notes in a library on your computer, and turns them into a new skill you can use
 
 Free. No API keys. Nothing to sign up for. Works in **Claude Code** and **Codex**.
 
+**One of three.** Claude can also listen to podcasts with [listen-skill](https://github.com/psabbagh/listen-skill) and read whole
+books with [read-skill](https://github.com/psabbagh/read-skill). Install any of them: they all keep their notes in the same library.
+
 > **Already have another `/watch`?** If you installed a different watch plugin, such as
 > `claude-video`, uninstall it first, or the two will clash:
 >
@@ -54,14 +57,35 @@ Watch this: [link]. Learn what it teaches and turn it into a skill I can use for
 For example: *Watch this: https://www.youtube.com/watch?v=... Learn what it teaches and turn
 it into a skill I can use forever, for building my own dashboards.*
 
-The link can be a YouTube video, a video on most other sites, or a video file on your
-computer. One video at a time.
-
 You do not have to type a command; asking is enough. If you prefer a command, type `/watch`
 in Claude Code and pick **watch:watch**, or type `$` in Codex and pick **watch**.
 
-**Watch or listen?** For a talking head or a podcast on YouTube, where the picture adds
-nothing, [listen-skill](https://github.com/psabbagh/listen-skill) is faster and lighter.
+## What it can watch
+
+Watch is for videos where the picture carries part of the lesson:
+
+- **Slides**: a conference talk, a lecture, a webinar
+- **A screen**: a software tutorial, a coding walkthrough, a spreadsheet or dashboard build
+- **Diagrams and drawings**: a whiteboard or animated explainer, charts, formulas
+- **Hands and objects**: a recipe, a repair, a physical demo
+
+| Give it | What it does |
+|---|---|
+| **A YouTube video link** | Downloads it (at most 720p), takes the words from its captions or transcribes them, and takes pictures where the scene changes |
+| **A video on Vimeo and many other public video sites** | The same |
+| **A video file on your computer**: .mp4, .mov, .mkv, .webm, .m4v, .avi (a screen recording, a saved Zoom or webinar recording) | The same, without downloading anything |
+
+**What it cannot watch:**
+
+- **Playlists and channels.** One video at a time. For the words of a whole playlist, use
+  [listen-skill](https://github.com/psabbagh/listen-skill).
+- **Videos behind a sign-in or paywall**: Netflix, paid course platforms, members-only or
+  private videos. It does not sign in for you or unlock anything.
+- **Spotify.**
+
+**Watch or listen?** For a talking head, an interview or a podcast on YouTube, where the
+picture adds nothing, [listen-skill](https://github.com/psabbagh/listen-skill) is faster and
+lighter because it skips the pictures.
 
 ## What happens
 
@@ -95,9 +119,7 @@ or "full" detail on a dense coding tutorial.
 
 ## What it does not do
 
-- **No locked or private videos.** It does not unlock DRM, sign in for you, or get around a
-  paywall.
-- **No playlists.** One video at a time. For the words of a whole playlist, use listen.
+- **No unlocking.** It does not unlock DRM, sign in for you, or get around a paywall.
 - **No video, pictures or transcript kept.** The library keeps notes in its own words and the
   skills made from them. The video, pictures and transcript sit in a working folder while it
   works and are deleted once the notes are saved.
